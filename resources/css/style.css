@@ -54,11 +54,11 @@ body {
 
 main {
   display: flex;
-  margin: 0px auto 0 auto;
+  margin: 0px auto 80px auto;
   width: 65%;
-  padding: 30px 30px auto 0px;
-  position: relative;
-  top: 80px;
+  padding: 116px 30px auto 0px;
+  /*position: relative;*/
+  /*top: 80px;*/
   justify-content: space-between;
 }
 
@@ -92,7 +92,9 @@ main {
 }
 
 .story {
-  width: inherit;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .orca-story {
@@ -163,6 +165,8 @@ main {
 .column_medium {
   width: 300px;
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -198,6 +202,9 @@ main {
 
 .column_small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .column_small div {
