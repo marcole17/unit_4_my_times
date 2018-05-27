@@ -1,0 +1,271 @@
+/* Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+  width: 74px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+/*Main >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+main {
+  display: flex;
+  margin: 0px auto 0 auto;
+  width: 65%;
+  padding: 30px 30px auto 0px;
+  position: relative;
+  top: 80px;
+  justify-content: space-between;
+}
+
+/* Column Large (left) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.column_large {
+  width: 630px;
+  max-width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.champagne-image  {
+  background-image:url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/champagne.png");
+  height: 300px;
+}
+
+.champagne-image p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-top: 75px;
+  padding-left: 20px;
+
+}
+
+.stories {
+  display:flex;
+  width: 315px;
+}
+
+.story {
+  width: inherit;
+}
+
+.orca-story {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.orca-story h2 {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.earth-spins {
+  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/fall_season.png");
+  height: 300px;
+}
+
+.earth-spins span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 95px;
+  display: flex;
+}
+
+.burger-story {
+  width: 285px;
+  margin-left: 25px;
+}
+
+.burger-story h2 {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.hipster-cameraman {
+  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/hipster_camerman.png");
+  width: 96%;
+  height: 300px;
+  margin-left: 25px;
+}
+
+.hipster-cameraman span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 95px;
+  display: flex;
+}
+
+.champagne-story p,
+.orca-story p,
+.earth-spins p,
+.burger-story p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Column Medium (center) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.column_medium {
+  width: 300px;
+  margin-top: 40px;
+
+}
+
+.fbi p,
+.cats-in-control-article p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.fbi h2 {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cats-in-control {
+  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/cat.png");
+  height: 300px;
+}
+
+.cats-in-control span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 115px;
+  display: flex;
+}
+
+/* Column Small (right) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.column_small {
+  width: 240px;
+}
+
+.column_small div {
+
+}
+
+.small_1 img {
+  width: 238px;
+  margin-top: 40px
+}
+
+.small_2 p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width:
+}
+
+.news-bites-list h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.news-bites-list .bite {
+  display: block;
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: mediumaquamarine;
+  position: relative;
+  top: 80px;
+  margin-top: 70px;
+  align-items: center;
+  padding: 90px 0px;
+}
+
+footer .column {
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+footer .my-times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+}
+
+footer .line {
+  margin: 0px 10px;
+}
+
+footer .footer-links {
+  font-family: Verdana;
+  font-size: 12px;
+
+
+}
