@@ -74,6 +74,10 @@ main {
 .champagne-image  {
   background-image:url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/champagne.png");
   height: 300px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .champagne-image p {
@@ -83,12 +87,15 @@ main {
   color: white;
   padding-top: 75px;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
 
 }
 
 .stories {
   display:flex;
   width: 315px;
+  flex-direction: column;
 }
 
 .story {
