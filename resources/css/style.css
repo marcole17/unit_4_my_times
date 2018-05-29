@@ -72,7 +72,7 @@ main {
 }
 
 .champagne-image  {
-  background-image: url("https://github.com/marcole17/unit_4_my_times/blob/master/resources/images/champagne.png");
+  background-image: url("unit_4_my_times/resources/images/champagne.png");
   height: 300px;
   width: 630px;
   display: flex;
