@@ -116,7 +116,7 @@ main {
 }
 
 .earth-spins {
-  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/fall_season.png");
+  background-image: url("https://github.com/marcole17/unit_4_my_times/blob/master/resources/images/fall_season.png");
   height: 300px;
 }
 
@@ -142,7 +142,7 @@ main {
 }
 
 .hipster-cameraman {
-  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/hipster_camerman.png");
+  background-image: url("https://raw.githubusercontent.com/marcole17/unit_4_my_times/master/resources/images/hipster_camerman.png");
   width: 96%;
   height: 300px;
   margin-left: 25px;
