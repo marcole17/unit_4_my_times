@@ -95,7 +95,7 @@ main {
 .stories {
   display:flex;
   width: 315px;
-  flex-direction: column;
+  flex-direction: ;
 }
 
 .story {
