@@ -75,8 +75,8 @@ main {
   background-image: url("https://raw.githubusercontent.com/marcole17/unit_4_my_times/master/resources/images/champagne.png");
   height: 300px;
   width: 630px;
-  display: flex;
-  flex-direction: column;
+  display: ;
+  flex-direction: ;
 
 }
 
@@ -87,14 +87,14 @@ main {
   color: white;
   padding-top: 75px;
   padding-left: 20px;
-  display: flex;
-  flex-direction: column;
+  display: ;
+  flex-direction: ;
 
 }
 
 .stories {
   display:flex;
-  width: 315px;
+  width: 630px;
   flex-direction: ;
 }
 
