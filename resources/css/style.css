@@ -191,7 +191,7 @@ main {
 }
 
 .cats-in-control {
-  background-image: url("file:///C:/Users/Chun/Documents/coding_projects/Unit%204/mytimes/resources/images/cat.png");
+  background-image: url("https://raw.githubusercontent.com/marcole17/unit_4_my_times/master/resources/images/cat.png");
   height: 300px;
 }
 
